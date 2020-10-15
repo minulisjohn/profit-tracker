@@ -1,5 +1,6 @@
 Profit Tracker App
 Implementation-
+
 Backend -
   Implemented using SpringBoot, JPA and H2 database
   Exceptions are handled using @ExceptionHandler and @ControllerAdvice annotations in SpringBoot
@@ -11,13 +12,11 @@ Frontend -
   Links are handled using Router in React
   Client side validations are handled using Javascript
   
-
 Assumptions -
 Calculate Profit Module -
   For calculating profit, the start date is considered as the start day of the current year
   Either category or product can be included in the search criteria
-  
- 
+   
 Improvements -
 Tests for backend(JUnit) and frontend(Jest)
 Webpackaging for frontend(Webpack)
